@@ -1,0 +1,55 @@
+[
+    {
+        "report_name": "View Favorite Datasets", 
+        "filename": "analytic-demo/python-demos/favorites.ipynb", 
+        "description": "List the metadata for your selected 'Favorite' market datasets. The list makes it easy to get your favorite datasource and dataset names for use in any analytic report.<br>You can login to your Sarus account to manage your favorite datasets by clicking on <a href=\"https:\/\/www.sarus.com\/profilemain?tab=favorites\"> this link</a>.", 
+        "FreeView_enabled": true,
+        "FreeRun_enabled": true,
+        "FreeDownload_enabled": true
+    },
+    {
+        "report_name": "Load and display one daily dataset", 
+        "filename": "analytic-demo/python-demos/single-dataset.ipynb", 
+        "description": "Load and display the market data for one dataset. You can change the dataset used, the moving averages and all other parameters in the 'Global Variables' cell.<br><br>This simple report can be used as a building block for all single dataset reports that you want to create.", 
+        "FreeView_enabled": true,
+        "FreeRun_enabled": true,
+        "FreeDownload_enabled": true,
+		"Level":1
+    },
+    {
+        "report_name": "Load a dataset as a monthly average and a chart with two moving Averages", 
+        "filename": "analytic-demo/python-demos/single-dataset-ma.ipynb", 
+        "description": "Load a dataset as a monthly average then chart and display it with two moving averags. You can change the dataset used, the moving averages and all other parameters in the 'Global Variables' cell.", 
+        "FreeView_enabled": true,
+        "FreeRun_enabled": true,
+        "FreeDownload_enabled": true,
+		"Level":1
+    },
+    {
+        "report_name": "Load and chart 2 datasets as daily and quarterly time series.", 
+        "filename": "analytic-demo/python-demos/two-datasets.ipynb",  
+        "description": "The report downloads two daily market data datasets (time series) as both daily and quarter year values. They are requested as business days only, filled forward (using the 'interpolate' fill method) and with a common start date. Six charts are created to display both daily and quarterly values (defined in the 'Global Variables' section below). ", 
+        "FreeView_enabled": true,
+        "FreeRun_enabled": true,
+        "FreeDownload_enabled": false,
+		"Level":2
+    },
+    {
+        "report_name": "ARIMA model on Time-Series data", 
+        "filename": "analytic-demo/python-demos/AR model on Time-Series data.ipynb", 
+        "description": "The ARIMA model (Auto-Regressive Integrated Moving Average), essentially creates a linear equation which describes and forecasts your time series data. See this article for more details:  <a href=\"https://towardsdatascience.com/what-is-an-arima-model-9e200f06f9eb\"> clicking here</a>.", 
+        "Free_enabled": true,
+        "FreeView_enabled": false,
+        "FreeDownload_enabled": false,
+ 		"Level":2
+    },
+    {
+        "report_name": "Seasonality model", 
+        "filename": "analytic-demo/python-demos/ARIMA.ipynb", 
+        "description": "This is a cycle that repeats over time, such as monthly or yearly. This repeating cycle may obscure the signal that we wish to model when forecasting, and in turn may provide a strong signal to our predictive models.", 
+        "free_enabled": false,
+        "FreeView_enabled": false,
+        "FreeDownload_enabled": false,
+ 		"Level":2
+    }
+]
